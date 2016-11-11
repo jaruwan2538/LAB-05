@@ -15,6 +15,10 @@
   ![](https://github.com/Desktop-Programming-Lab-2559/LAB-05/blob/master/img/pic1.png)
 
   2.2). รันโปรแกรม และบันทึกผลที่ได้
+  ![](https://github.com/jaruwan2538/LAB-05/blob/master/img/Capture5.1.PNG?raw=true)
+  ```
+  เพิ่มการขึ้นบรรทัดใหม่เข้าไปเมื่อเราใส่ตัวอักษรเข้าไปในเมธอด 
+  ```
 <hr>
 <hr>
 <hr>
@@ -25,18 +29,26 @@
   ![](https://github.com/Desktop-Programming-Lab-2559/LAB-05/blob/master/img/pic2.png)
 
  2.4). รันโปรแกรม และบันทึกผลที่ได้
-
-
-
+ ![](https://github.com/jaruwan2538/LAB-05/blob/master/img/Capture5.2.PNG?raw=true)
+```
+ตัวเลขที่อยู่ใน {} จะไม่แสดงผลเมื่อรันโปรแกรม
+```
 
 
 ###คำถาม 5.1 เครื่องหมาย { }  ในคำสั่ง Console.WriteLine() มีลักษณะการใช้งานอย่างไร
+ ```
+ ใช้บอกลำดับคำสั่ง ตำแหน่งของตัวเลขที่อยู่ ,
+ ```
 <hr>
 <hr>
 <hr>
 <hr>
 <hr>
 ###คำถาม 5.2  ถ้ามีการใช้ตัวเลขใน { } ที่กระโดด เช่น {0} {2} {3} จะใช้งานได้หรือไม่ อย่างไร จงอธิบาย
+  ```  
+   ไม่สามรถใส่เลขกระโดดได้ เพราะตัวเลขที่จะแสดงอยู่หลัง , ไม่มีตำแหน่งออกที่เอาพุต มีตำแหน่งที่{0} กับ {1}
+   ```
+   
 <hr>
 <hr>
 <hr>
@@ -48,6 +60,8 @@
   ![](https://github.com/Desktop-Programming-Lab-2559/LAB-05/blob/master/img/pic3.png)
 
  2.6). รันโปรแกรม และบันทึกผลที่ได้
+  ![](https://github.com/jaruwan2538/LAB-05/blob/master/img/Capture5.3.PNG?raw=true)
+ 
 <hr>
 <hr>
 <hr>
@@ -61,6 +75,9 @@
   ![](https://github.com/Desktop-Programming-Lab-2559/LAB-05/blob/master/img/pic4.png)
 
   3.2). รันโปรแกรม และบันทึกผลที่ได้
+ 
+  ![](https://github.com/jaruwan2538/LAB-05/blob/master/img/Capture5.4.PNG?raw=true)
+ 
 <hr>
 <hr>
 <hr>
@@ -68,6 +85,9 @@
 <hr>
 
 ###คำถาม 5.3 การกำหนดความกว้างของอาร์กิวเมนต์ด้วยเครื่องหมาย { , }  ในคำสั่ง Console.WriteLine() มีรูปแบบการใช้งานอย่างไร
+ ```
+ การเลือกข้อมูลและกำหนดตำแหน่งสุดท้ายของข้อมูล
+ ```
 <hr>
 <hr>
 <hr>
@@ -81,6 +101,7 @@
   ![](https://github.com/Desktop-Programming-Lab-2559/LAB-05/blob/master/img/pic5.png)
 
   4.2). รันโปรแกรม และบันทึกผลที่ได้
+  ![](https://github.com/jaruwan2538/LAB-05/blob/master/img/Capture5.5.PNG?raw=true)
 <hr>
 <hr>
 <hr>
@@ -93,6 +114,7 @@
  ![](https://github.com/Desktop-Programming-Lab-2559/LAB-05/blob/master/img/pic6.png)
 
   5.2). รันโปรแกรม และบันทึกผลที่ได้
+  ![](https://github.com/jaruwan2538/LAB-05/blob/master/img/Capture5.6.PNG?raw=true)
 
 6). ทดลองเรื่องการกำหนดรูปแบบพร้อมความกว้างของทศนิยมของอาร์กิวเมนต์
   6.1). แก้โปรแกรมตามรูปด้านล่างนี้
@@ -100,6 +122,7 @@
  ![](https://github.com/Desktop-Programming-Lab-2559/LAB-05/blob/master/img/pic7.png)
 
   6.2). รันโปรแกรม และบันทึกผลที่ได้
+  ![](https://github.com/jaruwan2538/LAB-05/blob/master/img/Capture5.7.PNG?raw=true)
 
 ## แบบฝึกหัด จงระบุ output ของบรรทัดคำสั่งต่อไปนี้
 
@@ -123,4 +146,7 @@
       for(i = 1; i < 10; i++) 
           Console.WriteLine("{0}\t{1}\t{2}", i, i*i, i*i*i); 
 15.    Console.WriteLine("{0:#.###}.", 1234.56789);
+
 ```
+
+![](https://github.com/jaruwan2538/LAB-05/blob/master/img/Capture5.8.PNG?raw=true)
